@@ -1,5 +1,5 @@
 <?php
-namespace Dangs\Hideprice\Helper;
+namespace Swe\Hideprice\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 
