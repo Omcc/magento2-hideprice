@@ -4,13 +4,13 @@
  * See COPYING.txt for license details.
  */
 
-namespace Dangs\Hideprice\Pricing\Render;
+namespace Swes\Hideprice\Pricing\Render;
 
 use Magento\Catalog\Pricing\Price;
 use Magento\Framework\Pricing\Render;
 use Magento\Framework\Pricing\Render\PriceBox as BasePriceBox;
 use Magento\Msrp\Pricing\Price\MsrpPrice;
-use Dangs\Hideprice\Helper\Data as Helper;
+use Swes\Hideprice\Helper\Data as Helper;
 
 /**
  * Class for final_price rendering

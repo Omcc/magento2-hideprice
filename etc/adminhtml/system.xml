@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Dangs.
+ * Swes.
  *
- * @category  Dangs
- * @package   Dangs_Hideprice
- * @author    dangs.work@gmail.com
+ * @category  Swes
+ * @package   Swes_Hideprice
+ * @author    Swes.work@gmail.com
  * @copyright Copyright (c) 
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="dangs" translate="label" sortOrder="11">
-            <label>Dangs</label>
+        <tab id="Swes" translate="label" sortOrder="11">
+            <label>Swes</label>
         </tab>
-        <section id="dangs_hideprice" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="Swes_hideprice" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Hide Price</label>
-            <tab>dangs</tab>
-            <resource>Dangs_Hideprice::config_hideprice</resource>
+            <tab>Swes</tab>
+            <resource>Swes_Hideprice::config_hideprice</resource>
             <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Setting</label>
                 <field id="enabled" translate="label comment" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">

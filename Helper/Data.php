@@ -13,12 +13,12 @@ class Data extends AbstractHelper
     }
 
     public function getIsEnable(){
-        return $this->scopeConfig->getValue('dangs_hideprice/general/enabled', 
+        return $this->scopeConfig->getValue('Swes_hideprice/general/enabled', 
                                             \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
     }
 
     public function getWordingHidePrice(){
-        return $this->scopeConfig->getValue('dangs_hideprice/general/wording_hide_price', 
+        return $this->scopeConfig->getValue('Swes_hideprice/general/wording_hide_price', 
                                             \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
     }
 }
