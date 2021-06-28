@@ -1,0 +1,25 @@
+
+{
+    "name": "swe/hideprice",
+    "description": "SWE Magento 2 Hide Price Module B2B ",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Yunus Yüksel",
+            "email": "yunus@superwaveelectronics.com",
+            "homepage": "https://www.superwaveelectronics.com",
+            "role": "Magento Partner"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swe\\Hideprice\\": ""
+        }
+    }
+}
